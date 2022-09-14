@@ -1,0 +1,27 @@
+{
+  "name": "node-jsx-example",
+  "version": "1.0.0",
+  "scripts": {
+    "form": "tsc && node dist/form.js",
+    "dashboard": "tsc && node dist/dashboard.js",
+    "dispatch": "tsc && node dist/dispatch.js",
+    "animation": "tsc && node dist/animation.js",
+    "flex": "tsc && node dist/flex.js",
+    "teardown": "tsc && node dist/teardown.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "react": "^17.0.0",
+    "react-blessed": "^0.7.2",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.19",
+    "@types/node": "^18.7.16",
+    "@types/react-blessed": "^0.7.1",
+    "typescript": "^4.5.4"
+  }
+}
